@@ -41,11 +41,12 @@ const Header = () => {
 export default Header;
 
 const Nav = styled.nav`
-  height: 70px;
-  background-color: #090b13;
   display: flex;
   align-content: center;
+  height: 70px;
+  background-color: #090b13;
   padding: 0 36px;
+  overflow-x: hidden;
 `;
 
 const Logo = styled.img`
@@ -101,10 +102,11 @@ const NavMenu = styled.div`
 `;
 
 const UserImg = styled.img`
+  margin-top: 10px;
+  display: inline-block;
   width: 48px;
   height: 48px;
-  object-fit: cover;
   border-radius: 50%;
-  padding: 10px 0;
+  object-fit: cover;
   cursor: pointer;
 `;
