@@ -3,14 +3,14 @@ import styled from "styled-components";
 import ImgSlider from "./ImgSlider";
 import Viewers from "./Viewers";
 
-function Home() {
+const Home = () => {
   return (
     <Container>
       <ImgSlider />
       <Viewers />
     </Container>
   );
-}
+};
 
 export default Home;
 
